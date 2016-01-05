@@ -1,0 +1,64 @@
+ @media  screen and (max-width: 480px) {
+    header .s-col-2 {
+		width: 78%;
+		float:left;
+		margin: -124px 0 50px -34px ;
+		display: block;
+    }
+	header nav{
+		float:right;
+		margin-left:140px;
+		padding:32px 0 12px 0 ;
+		
+	}
+	header nav li {
+		float:none;
+		width: 25%;
+		font-size: 12px;
+		padding:6px 0 0 0 ;
+		
+	}
+	header img{
+	 margin-right:0;
+ }
+	#people .xs-col-6 {
+        width:100%;
+		float:none;
+    }
+	#subscruption  .xs-col-6 {
+        width:98%;
+		float:none;
+    }
+	#fork .s-col-3 {
+        float:none;
+    }
+	#subscruption .s-col-2 {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    header .s-col-2 {
+        float:right;
+		width: 50%;
+	}
+	
+}
+@media  screen and (min-width: 768px) {
+    header .s-col-2 {
+        float:right;
+    }
+	
+	#fork .s-col-3 {
+        float:none;
+    }
+	#fork .s-col-3  #subscruption .s-col-9{
+		float:none;
+    }
+	#subscruption   .s-col-3 {
+		width:23%;
+	}
+	#subscruption .s-col-2 {
+    width: 70%;
+	float:none;
+  }
+}

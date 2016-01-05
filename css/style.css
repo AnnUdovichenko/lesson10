@@ -1,0 +1,199 @@
+
+ body {
+	 font-family: OpenSans;
+	 
+}
+
+.container{
+	width:1174;
+	margin: 0 auto;
+}
+
+p{
+	text-align:center;
+}
+.button-small{
+     background-color: #8d81ac;
+     border-radius: 19px;
+	 text-align:center;
+     color: white;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 15px;
+	 padding:12px 30px;
+	 margin-top:32px;
+}	 
+ /*--------------------- Header -------------------- */
+ header{
+	 background-color:#fff; 
+	 background-size:cover;
+ }
+ header img{
+	 float:left;
+	 margin-top:30px;
+	 margin-right:16px;
+ }
+ header p{
+	 font-family: Lato;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 16px;
+     text-transform: uppercase;
+	 color: #333;
+	 margin:42px 0 44px 0;
+ }
+ header span{
+	 color: #8d81ac;
+ }
+  
+ header nav li {
+	 float:left;
+	 color: #635c73;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 15px;
+	 padding:44px 0 0 44px ;
+	 text-align:center;	 
+}
+  A:link {
+	 text-decoration: none; 
+}	
+  A{
+	  color:#635c73;
+  }
+  header.button-small{
+	  position:absolute;
+	 display: inline-block;
+     margin: 32px auto 100px;
+  }
+ /*--------------------- fork --------------------*/ 
+ #fork{
+	 background-image: url(../img/img.jpg);
+	 background-size:cover;
+ }	
+ #fork .container{
+	 padding:158px 0 604px 0;
+	 position: relative;
+ }
+  #fork  h1{
+     color: white;
+     font-family: Montserrat;
+     font-size: 82px;
+     font-weight: 700;
+     line-height: 20px;
+	 text-align:center;	 
+ } 
+ #fork p{
+	 color: #8d81ac;
+     font-family: Lato;
+     font-size: 30px;
+     font-weight: 400;
+     line-height: 20px;
+	 text-align:center;
+	 margin-top:66px;
+ }
+ #fork span{
+	 color: #848e97;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 20px;
+     text-transform: uppercase;
+	 text-align:center;
+	  }
+ #fork   .button-small{
+	 position:absolute;
+	 display: inline-block;
+	 margin:580px 0 0 0;
+	 
+ }
+ /*--------------------- people --------------------*/
+ #people{
+	 background-image: url(../img/people.jpg);
+	 background-size:cover;
+ }
+ #people .container{
+	 padding:8px 0 30px 0;
+ }
+ #people h1{
+	 color: white;
+     font-family: Montserrat;
+     font-size: 48px;
+	 font-weight: 700;
+     line-height: 20px;
+	 padding: 96px 0 90px;
+	 text-align:center;
+ }
+ #people p{
+	 color: white;
+     font-family: SourceSansPro;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+	 margin: 20px 0 38px;
+ }
+ /*--------------------- subscruption --------------------*/
+ #subscruption{
+	 background-image: url(../img/fork.jpg);
+	 background-size:cover;
+ }
+ #subscruption .container{
+	 padding:8px 0 30px 0;
+ }
+ #subscruption h1{
+	 color: white;
+     font-family: Montserrat;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 20px;
+	 padding: 96px 0 90px;
+	 text-align:center;
+ }
+ #subscruption h2{
+	 color: white;
+     font-family: Montserrat;
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 20px;
+     text-transform: uppercase;
+	 text-align:center;
+	 margin:10px 0 ;
+ }
+ #subscruption p{
+	 color: white;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 32px;
+	 margin: 20px 0 20px;
+ }
+ #subscruption span{
+	 color: white;
+     font-family: Montserrat;
+     font-size: 60px;
+	 font-weight: 400;
+     line-height: 90px;
+     text-transform: uppercase;
+	 margin: 20px 0 20px;
+ }
+ #subscruption   .button-small[type="submit"]{
+	 background-color::#80727f;
+	 position:absolute;
+	 display: inline-block;
+	 text-align: center;
+	 margin:20px 0 20px 0;
+ }
+ 
+#subscruption h5{
+	 color: #a291a5;
+     font-family: SourceSansPro;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 21px;
+	 text-align:center;
+	 padding-bottom:50px;
+	 margin: 80px auto 0;
+ }
+ 
